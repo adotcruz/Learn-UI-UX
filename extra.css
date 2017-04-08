@@ -1,0 +1,101 @@
+/*
+008CBF
+These are the css settings specific to the diversity pages, in order to jazz it all up
+*/
+
+
+/*Settings for text*/
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	color:#006A91;
+}
+
+a{
+	color:#0DBEFF;
+}
+
+.subhome #content{
+	border-style:none;
+}
+
+.subhome .card{
+	border-style: none;
+}
+
+.card{
+	text-align: center;
+}
+
+#middle{
+	background-color: #E5E5E5;
+}
+
+#content{
+	background-color: #E5E5E5;
+}
+
+/*Settings for the navigation bar*/
+
+.navbar{
+	padding: 1px;
+	text-align: center;
+}
+
+.nav>li>a{
+	font-size: 12px;
+	text-align:center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color:#0DBEFF;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+
+.events{
+	text-align: left;
+}
+
+
+
+/*settings for resources*/
+
+.btn{
+	margin-bottom: 10px;
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.37);
+	-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.37);
+	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.37);
+}
+
+.resource-p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.resource-centers-hidden{
+	display: none;
+}
+
+.resource-support-hidden{
+	display: none;
+}
+
+.resource-emergency-hidden{
+	display: none;
+}
+
+.resource-academic-hidden{
+	display: none;
+}
