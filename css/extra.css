@@ -46,6 +46,18 @@ a{
 	text-align: center;
 }
 
+.sticky{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#navbar-data{
+	z-index: 1;
+	width: 100%;
+	background-color: #f8f8f8;
+}
+
 .nav>li>a{
 	font-size: 12px;
 	text-align:center;
