@@ -17,7 +17,14 @@ http://paletton.com/#uid=13l0u0kAot8mCBCt5-iDTnxJEi8
 .h-ugrad{
 	padding-top: 15px;
 }
+
+
+
 .h2-center{
+	text-align: center;
+}
+
+.h-center{
 	text-align: center;
 }
 
@@ -51,12 +58,12 @@ p{
 }
 
 #middle{
-	background-color: #E5E5E5;
+	background-color: white;
 	padding: 0px;
 }
 
 #content{
-	background-color: #E5E5E5;
+	background-color: white;
 	padding-left: 7%;
 	padding-right: 7%;
 }
@@ -68,13 +75,20 @@ p{
 
 .navbar{
 	padding: 1px;
+	padding-bottom: 0px;
 	text-align: center;
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.37);
+	-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.37);
+	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.37);
 }
 
 .sticky{
 	position: fixed;
 	top: 0;
 	left: 0;
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.37);
+	-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.37);
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.37);
 }
 
 
@@ -121,6 +135,14 @@ p{
 		font-size: 10px;
 		padding: 5px 5px;
 	}
+
+}
+
+@media (max-width: 992px) and (min-width: 767px){
+	/*resources page*/
+	.h-resources{
+		font-size: 20px;
+	}	
 }
 
 .events{
@@ -132,6 +154,7 @@ p{
 /*settings for resources*/
 
 .btn{
+	width: 100%;
 	margin-bottom: 10px;
 	-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.37);
 	-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.37);

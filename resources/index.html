@@ -37,7 +37,7 @@
 		<script src="../js/bar.js"></script>
 	</head>
 
-	<body class="subhome">
+	<body>
 
 		<div id="header">
 			<div id="bannertop">
@@ -170,12 +170,13 @@
 		</div><!-- header -->
 
 
+
 	  	<div id= "middle">
 
 
 	  		<nav class="navbar navbar-default">
 	  			<div class="container-fluid">
-	  				<div class="navbar-header page-scroll">
+	  				<div id="xs-nav" class="navbar-header page-scroll">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-data" aria-expanded="false">
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
@@ -200,222 +201,238 @@
 				</div><!--container-fluid-->
 			</nav>
 
-			<div id="content" style="border:none;">
-				<div class="container">
-					<div class="row">
-						<h1> Resources </h1>
-					</div><!--row-->
-					<div class="row">
-						<div class="col-lg-5 col-md-6 col-sm-7 col-xs-8" id="need-help">
-							<h2> If You Need Help:</h2>
-							<p>If you have an emergency that needs immediate attention contact the Department of Public Safety at 401-863-4111. For any other incidents that you would like addressed you can complete the <a href="https://goo.gl/forms/25UM6SlyTS3YWHvt1">Incident Report Form</a>, reach out to the Staff Diversity Liaison Laura Dobler, <a href="mailto:laura_dobler@brown.edu">laura_dobler@brown.edu</a> 401-863-7611 directly, or attend one of the Student Advocates' office hours.</p>
-							<h5>Click below for more helpful resources available to Brown students</h5>
-						</div><!--ifyouneedhelp-->
-					</div><!--row-->
+			<div class="container" id="content" style="border:none;">
+				<div class="row first-row">
+					<h1 class="h-center"> Resources </h1>
+					<div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-6 col-xs-6" id="need-help">
+						<h2> If You Need Help:</h2>
+						<p>If you have an emergency that needs immediate attention contact the Department of Public Safety at 401-863-4111. For any other incidents that you would like addressed you can complete the <a href="https://goo.gl/forms/25UM6SlyTS3YWHvt1">Incident Report Form</a>, reach out to the Staff Diversity Liaison Laura Dobler, <a href="mailto:laura_dobler@brown.edu">laura_dobler@brown.edu</a> 401-863-7611 directly, or attend one of the Student Advocates' office hours.</p>
+						<h5>Click below for more helpful resources available to Brown students</h5>
+					</div><!--ifyouneedhelp-->
+					<div class="col-lg-5 col-md-6 col-sm-6 col-xs-6" id="need-help">
+						<h2> Mental + Physical Health and Wellness:</h2>
+						<p><span class="file"><a href="https://cs.brown.edu/media/filer_public/03/0a/030a6a2e-7a61-4c30-98c1-dce87b9d9899/brown_cs_health_and_wellness_resources.pdf" target="_blank">Brown CS Health and Wellness Resources <span class="filesize">(132.9&nbsp;KB)</span></a> </span><br/> 
+						(With love, from Sachin Pendse &lsquo;17, Grant Fong &lsquo;19, and Karen Tu &lsquo;20)<br />
+						Do you have tips/advice for how to maintain good health while concentrating in CS? Go to <a href="https://goo.gl/s021Mi">https://goo.gl/s021Mi</a> and add your advice!</p>
+					</div><!--ifyouneedhelp-->
+				</div><!--row-->
 
-					<div class="row">
-						<div class="col-lg-5 col-md-5 col-sm-5 col-xs-11" id="academic-support">
-							<button type="button" id ="button-academic-hide" class="btn"><h3>Academic Support:</h3></button>
-							<div class="resource-academic-hidden">
-								<p>
-								<a href="https://www.brown.edu/academics/college/">Dean of the College (DOC)</a> - Addresses academic concerns
-								<br/>
-								<a href="https://www.brown.edu/academics/college/advising/curricular-resource-center/">Curricular Resource Center (CRC)</a> - Address independent concentrations, gap years, leave-taking, DUGs, fellowships, internships and research
-								<br/>
-								<a href="https://www.brown.edu/academics/science-center/">Science Center</a> - Provides tutoring for STEM courses during the year
-								<br/>
-								<a href="https://ask.brown.edu/home/">Advising Sidekick</a> - a common on-line space for students and advisors that includes advising materials, information about the Writing Requirement, email announcements, and the Concentration declaration process.
-								<br/>
-								<a href="https://www.math.brown.edu/mrc/">Math Resource Center</a> - Provides tutoring for math courses during the year
-								</p>
-							</div><!--academichidden-->
-						</div><!--academicsupport-->
+				<div class="row">
+					<div class="col-lg-5 col-lg-offset-1 col-md-5 col-sm-5 col-xs-11" id="academic-support">
+						<button type="button" id ="button-academic-hide" class="btn"><h3 class="h-center h-resources">Academic Support:</h3></button>
+						<div class="resource-academic-hidden">
+							<p>
+							<a href="https://www.brown.edu/academics/college/">Dean of the College (DOC)</a> - Addresses academic concerns
+							<br/>
+							<a href="https://www.brown.edu/academics/college/advising/curricular-resource-center/">Curricular Resource Center (CRC)</a> - Address independent concentrations, gap years, leave-taking, DUGs, fellowships, internships and research
+							<br/>
+							<a href="https://www.brown.edu/academics/science-center/">Science Center</a> - Provides tutoring for STEM courses during the year
+							<br/>
+							<a href="https://ask.brown.edu/home/">Advising Sidekick</a> - a common on-line space for students and advisors that includes advising materials, information about the Writing Requirement, email announcements, and the Concentration declaration process.
+							<br/>
+							<a href="https://www.math.brown.edu/mrc/">Math Resource Center</a> - Provides tutoring for math courses during the year
+							</p>
+						</div><!--academichidden-->
+					</div><!--academicsupport-->
 
-						<div class="col-lg-5 col-lg-offset-0 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-11" id="emergency-contacts">
-							<button type="button" id ="button-emergency-hide" class="btn"><h3>Emergency Contacts: </h3></button>
+					<div class="col-lg-5 col-lg-offset-0 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-11" id="emergency-contacts">
+						<button type="button" id ="button-emergency-hide" class="btn"><h3 class="h-center h-resources">Emergency Contacts: </h3></button>
 
-							<div class="resource-emergency-hidden">
-				
-								<p>
-								<a href="https://www.brown.edu/campus-life/health/ems/">Emergency Medical Services (EMS)</a> <strong>(401) 863 4111 - </strong>Physical evaluations, hospital transports, medical emergencies
-								<br/>
-								<a href="https://www.brown.edu/about/administration/student-life/">Dean of Student Life</a> <strong>(401) 863-3145 - </strong>Addresses academic and personal emergencies during business hours
-								<br/>
-								<a href="https://www.brown.edu/campus-life/support/families/emergency-contacts">Administrator on Call (AOC)</a> <strong>(401) 863-3322 - </strong>Addresses academic and personal emergencies on Evenings and Weekends
-								<br/>
-								<a href="https://www.brown.edu/campus-life/safety/resources/sexual-assault-response-line">Sexual Assault Response Line</a> <strong>(401) 863-6000</strong> - Immediate support in conjunction with DPS, EMS and CAPS (confidential)
-								</p>
-							</div><!--resourceemergencyhidden-->
-						</div><!--emergencycontacts-->
-					</div><!--row-->
-
-
-					<div class="row">
-						<div class="col-lg-5 col-lg-offset-0 col-md-5 col-md-offset-0 col-sm-5 col-sm-offset-0 col-xs-11" id="resource-centers">
-							<button type="button" id ="button-centers-hide" class="btn"><h3>Resource Centers:</h3></button>
-							<div class="resource-centers-hidden">
-
-								<b class="resource-title">Center for the Study of Race and Ethnicity in America </b>
-
-								<p class="resource-p">
-								The <a href="http://www.brown.edu/Departments/Race_Ethnicity/">Center for the Study of Race Ethnicity</a> at Brown is an interdisciplinary program that develops and promotes research and programs on Race and Ethnicity. The Center also supports the Ethnic Studies concentration and curriculum.
-								</p>
-
-								<b class="resource-title">First Generation College Students</b>
-								
-								<p class="resource-p">
-								While the term first generation college student is defined as a student whose parents did not complete a four-year college education, at Brown we encourage students to think of the term more broadly. Any student who self-identifies as having minimal prior exposure to or knowledge of experiences like those at Brown may be considered a First Generation student and may find additional resources, such as those provided by the First Generation College Student Initiative, helpful during their time at Brown.
-
-								The <a href="http://www.brown.edu/campus-life/support/first-generation-students/home">First Generation College Student Initiative</a> is a collaboration of the <a href="http://brown.edu/campuslife">Division of Campus Life &amp; Student Services</a>, the <a href="http://brown.edu/college/">Office of the Dean of the College</a>, and a <a href="https://www.facebook.com/groups/596870623759368/">student leadership group</a>. We provide both academic and social opportunities, and our programs are open to anyone who feels they may be helpful.
-								</p>
-
-								<b class="resource-title">Rites and Reason (Theatre program)</b>
-
-								<p class="resource-p">
-								The mission of <a href="http://www.brown.edu/Departments/Africana_Studies/rites_reason/">Rites and Reason</a> is to develop new works for the American Stage, which analyze and articulate the phenomenal and universal odyssey of the African Diaspora. Over the years, the mission has grown to embrace the expression of other cultural experiences.
-								</p>
-
-								<b class="resource-title">Pembroke Center</b>
-
-								<p class="resource-p">
-								The <a href="http://www.pembrokecenter.org/">Pembroke Center</a> was established in 1981 as a research center on gender. Funded in its early years by the Ford Foundation, the National Endowment for the Humanities, and the Rockefeller Foundation, the Center now supports its programs largely through its endowment, made possible by generous alumnae and other donors.
-								</p>
-
-								<b class="resource-title">Office of Diversity and Multicultural Affairs</b>
-
-								<p class="resource-p">
-								<a href="https://www.brown.edu/academics/medical/diversity/office-diversity-and-multicultural-affairs">The Office of Diversity and Multicultural Affairs</a> is responsible for the recruitment, selection, education, successful academic progression, and graduation of minority students from Alpert Medical School, and raising awareness about cultural competency and diversity.
-								</p>
-
-								<b class="resource-title">Sarah Doyle Women’s Center</b>
-
-								<p class="resource-p">
-								The <a href="http://www.brown.edu/Departments/Sarah_Doyle_Center/">SDWC</a> welcomes those interested in the multiple issues around gender and the intersections of gender with other markers of identity. The Center offers a variety of services and programs, as well as meeting space for University and community groups.
-								</p>
-
-								<b class="resource-title">Brown Center for Students of Color (BCSC)</b>
-
-								<p class="resource-p">
-								The <a href="http://www.brown.edu/Student_Services/TWC/">BCSC</a> at Brown University, created in 1976, was designed to serve the interests and meet the needs of all Third World students and to promote racial and ethnic pluralism in the Brown community. The director of TWC holds an appointment as an assistant dean of the college and supports the academic needs of students of color.
-								</p>
-
-								<b class="resource-title">The LGBTQ Resource Center</b>
-
-								<p class="resource-p">
-								The<a href="http://www.brown.edu/Student_Services/Office_of_Student_Life/lgbtq/"> LGBTQ Center</a> provides a comprehensive range of education, information and advocacy services on lesbian, gay, bisexual, transgender and queer issues and works to create and maintain an open, safe and inclusive environment for LGBTQ students, faculty, and staff at Brown. The Center advises LGBTQ student groups and oversees LGBTQ programs such as the Safe Zone Ally Program, the Renn Mentoring Program, as well as the planning and implementation of social, cultural and educational programs planned by students during National Coming Out Week in October and Pride Month in April.
-								</p>
-
-								<b class="resource-title">Brown Hillel</b>
-
-								<p class="resource-p">
-								As the largest student organization on campus, <a href="http://www.brownhillel.org/">Hillel</a> offers performing artists, lectures, Jewish learning, symposiums, community action projects, Israel study, and a safe place for students to be Jewish. The foundation looks to sustain a vibrant Jewish community.
-								</p>
-
-								<b class="resource-title">Housing Options</b>
-
-								<p class="resource-p">
-								The <a href="http://reslife.brown.edu/">Office of Residential Life</a> is responsible for maintaining student residences which support the educational mission of Brown University and are designed to provide a variety of learning opportunities that promote students' academic endeavors, and which encourage their growth and development. The Office of Residential Life at Brown recognizes that learning is not solely academic in nature. A large part of learning inevitably takes place outside the classroom. We are committed to supporting that learning through the residential experiences we provide. At Brown, we recognize that personal growth and development are largely the result of student interactions within an extraordinarily diverse environment of people and programs. The Office of Residential Life is committed to providing students with a safe, comfortable and well-maintained living space in an academically enriching environment.
-								</p>
-
-								<b class="resource-title">Veterans</b>
-
-								<p class="resource-p">
-								The <a href="http://www.brown.edu/campus-life/support/veterans-and-commissioning-programs/">Office of Student Veterans and Commissioning Programs</a> is a campus resource for student veterans, whether of the United States military or military service in other countries, and for students interesting in military officer commissioning programs, including ROTC.
-								</p>
-
-								<b class="resource-title">International Students</b>
-
-								<p class="resource-p">
-								<a href="http://brown.edu/internationalstudents">International student resources</a> and advising are provided by a variety of campus offices.  The International Student Resources page provides a comprehensive set of links and information to these services.
-								</p>
-
-								<b class="resource-title">Student Organizations</b>
-
-								<p class="resource-p">
-								There are several<a href="http://www.brown.edu/Administration/Student_Activities/"> student organizations</a> at Brown addressing the many facets of diversity. They include Arab-American Students Anti-Discrimination Coalition, Asian American Students Association, The Brotherhood, Brown Christian Fellowship, Brown International Organization, Brown Organization of Multiracial and Biracial Students, Brown Sistas United, Brown Taiwan Society, Cape Verdean Students Association, Brown Chinese Students and Scholars Association, El Movimiento Estudiantil Chicano de Atzlan, La Federacion de Estiadiantes Puertorriquenos, Filipino Alliance, Friends of Turkey, Hong Kong Students Association, Japanese Culture Association, Korean American Students Association, Latin American Students Association, Queer Alliance, Muslim Student Association, Organization of United African Peoples, Pakistani Students at Brown, South Asian Students Association, Students of Caribbean Ancestry, and the Young Communist League.
-								</p>	
-							</div><!--hidden-->					
-						</div><!--resourcecenters-->
-
-						<div class="col-lg-5 col-lg-offset-0 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-11" id="student-support">
-							<button type="button" id ="button-support-hide" class="btn"><h3>Student Support:</h3></button>
-							<div class="resource-support-hidden">
-								<b class="resource-title">Student and Employee Accessibility Services</b>
-
-								<p class="resource-p">
-								<a href="http://www.brown.edu/Student_Services/Office_of_Student_Life/dss/">Student and Employee Accessibility Services</a> coordinates services and accommodations for students, faculty and staff with physical, psychological, sensory, and learning disabilities. SEAS is also available for consultation with Brown community members who are questioning whether they may have a disability, have questions about working with someone who has a disability, or have a temporary condition that may require accommodations or services.
-								</p>
-
-								<b class="resource-title">Counseling and Psychological Services</b>
-
-								<p class="resource-p">
-								All of Brown’s<a href="http://www.brown.edu/Student_Services/Psychological_Services/"> Counseling and Psychological Services</a> clinicians are required to have experience in working with students from diverse backgrounds. The office provides ongoing programming for students on topics, including ethnic and racial identity, hate crimes in Asian American communities, psychological barriers to self-esteem and intimacy in the LGBTA community, and group sessions on culture consciousness.
-								</p>
+						<div class="resource-emergency-hidden">
+			
+							<p>
+							<a href="https://www.brown.edu/campus-life/health/ems/">Emergency Medical Services (EMS)</a> <strong>(401) 863 4111 - </strong>Physical evaluations, hospital transports, medical emergencies
+							<br/>
+							<a href="https://www.brown.edu/about/administration/student-life/">Dean of Student Life</a> <strong>(401) 863-3145 - </strong>Addresses academic and personal emergencies during business hours
+							<br/>
+							<a href="https://www.brown.edu/campus-life/support/families/emergency-contacts">Administrator on Call (AOC)</a> <strong>(401) 863-3322 - </strong>Addresses academic and personal emergencies on Evenings and Weekends
+							<br/>
+							<a href="https://www.brown.edu/campus-life/safety/resources/sexual-assault-response-line">Sexual Assault Response Line</a> <strong>(401) 863-6000</strong> - Immediate support in conjunction with DPS, EMS and CAPS (confidential)
+							</p>
+						</div><!--resourceemergencyhidden-->
+					</div><!--emergencycontacts-->
+				</div><!--row-->
 
 
-								<b class="resource-title">University Health Services</b>
+				<div class="row">
+					<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-0 col-sm-5 col-sm-offset-0 col-xs-11" id="resource-centers">
+						<button type="button" id ="button-centers-hide" class="btn"><h3 class="h-center h-resources">Resource Centers:</h3></button>
+						<div class="resource-centers-hidden">
 
-								<p class="resource-p">
-								Working with a wide range of individual and student organizations,<a href="http://www.brown.edu/Student_Services/Health_Services/index.htm"> </a><a href="http://www.brown.edu/Student_Services/Health_Services/">University Health Services</a> is dedicated to the promotion of healthy lifestyles. Programs range from sexual health to relaxation techniques, from eating disorders to domestic abuse.
-								</p>
+							<b class="resource-title">Center for the Study of Race and Ethnicity in America </b>
 
-								<b class="resource-title">Dining Services</b>
+							<p class="resource-p">
+							The <a href="http://www.brown.edu/Departments/Race_Ethnicity/">Center for the Study of Race Ethnicity</a> at Brown is an interdisciplinary program that develops and promotes research and programs on Race and Ethnicity. The Center also supports the Ethnic Studies concentration and curriculum.
+							</p>
 
-								<p class="resource-p">
-								<a href="http://www.brown.edu/Student_Services/Food_Services/">Dining Services</a> offers Kosher and Halal meal plan options for observant Jewish and Muslim students, served in a separate section of the Refectory. This enables students to adhere to dietary laws while also dining with friends.
-								</p>
+							<b class="resource-title">First Generation College Students</b>
+							
+							<p class="resource-p">
+							While the term first generation college student is defined as a student whose parents did not complete a four-year college education, at Brown we encourage students to think of the term more broadly. Any student who self-identifies as having minimal prior exposure to or knowledge of experiences like those at Brown may be considered a First Generation student and may find additional resources, such as those provided by the First Generation College Student Initiative, helpful during their time at Brown.
 
-								<b class="resource-title">Chaplains and Religious Life</b>
+							The <a href="http://www.brown.edu/campus-life/support/first-generation-students/home">First Generation College Student Initiative</a> is a collaboration of the <a href="http://brown.edu/campuslife">Division of Campus Life &amp; Student Services</a>, the <a href="http://brown.edu/college/">Office of the Dean of the College</a>, and a <a href="https://www.facebook.com/groups/596870623759368/">student leadership group</a>. We provide both academic and social opportunities, and our programs are open to anyone who feels they may be helpful.
+							</p>
+
+							<b class="resource-title">Rites and Reason (Theatre program)</b>
+
+							<p class="resource-p">
+							The mission of <a href="http://www.brown.edu/Departments/Africana_Studies/rites_reason/">Rites and Reason</a> is to develop new works for the American Stage, which analyze and articulate the phenomenal and universal odyssey of the African Diaspora. Over the years, the mission has grown to embrace the expression of other cultural experiences.
+							</p>
+
+							<b class="resource-title">Pembroke Center</b>
+
+							<p class="resource-p">
+							The <a href="http://www.pembrokecenter.org/">Pembroke Center</a> was established in 1981 as a research center on gender. Funded in its early years by the Ford Foundation, the National Endowment for the Humanities, and the Rockefeller Foundation, the Center now supports its programs largely through its endowment, made possible by generous alumnae and other donors.
+							</p>
+
+							<b class="resource-title">Office of Diversity and Multicultural Affairs</b>
+
+							<p class="resource-p">
+							<a href="https://www.brown.edu/academics/medical/diversity/office-diversity-and-multicultural-affairs">The Office of Diversity and Multicultural Affairs</a> is responsible for the recruitment, selection, education, successful academic progression, and graduation of minority students from Alpert Medical School, and raising awareness about cultural competency and diversity.
+							</p>
+
+							<b class="resource-title">Sarah Doyle Women’s Center</b>
+
+							<p class="resource-p">
+							The <a href="http://www.brown.edu/Departments/Sarah_Doyle_Center/">SDWC</a> welcomes those interested in the multiple issues around gender and the intersections of gender with other markers of identity. The Center offers a variety of services and programs, as well as meeting space for University and community groups.
+							</p>
+
+							<b class="resource-title">Brown Center for Students of Color (BCSC)</b>
+
+							<p class="resource-p">
+							The <a href="http://www.brown.edu/Student_Services/TWC/">BCSC</a> at Brown University, created in 1976, was designed to serve the interests and meet the needs of all Third World students and to promote racial and ethnic pluralism in the Brown community. The director of TWC holds an appointment as an assistant dean of the college and supports the academic needs of students of color.
+							</p>
+
+							<b class="resource-title">The LGBTQ Resource Center</b>
+
+							<p class="resource-p">
+							The<a href="http://www.brown.edu/Student_Services/Office_of_Student_Life/lgbtq/"> LGBTQ Center</a> provides a comprehensive range of education, information and advocacy services on lesbian, gay, bisexual, transgender and queer issues and works to create and maintain an open, safe and inclusive environment for LGBTQ students, faculty, and staff at Brown. The Center advises LGBTQ student groups and oversees LGBTQ programs such as the Safe Zone Ally Program, the Renn Mentoring Program, as well as the planning and implementation of social, cultural and educational programs planned by students during National Coming Out Week in October and Pride Month in April.
+							</p>
+
+							<b class="resource-title">Brown Hillel</b>
+
+							<p class="resource-p">
+							As the largest student organization on campus, <a href="http://www.brownhillel.org/">Hillel</a> offers performing artists, lectures, Jewish learning, symposiums, community action projects, Israel study, and a safe place for students to be Jewish. The foundation looks to sustain a vibrant Jewish community.
+							</p>
+
+							<b class="resource-title">Housing Options</b>
+
+							<p class="resource-p">
+							The <a href="http://reslife.brown.edu/">Office of Residential Life</a> is responsible for maintaining student residences which support the educational mission of Brown University and are designed to provide a variety of learning opportunities that promote students' academic endeavors, and which encourage their growth and development. The Office of Residential Life at Brown recognizes that learning is not solely academic in nature. A large part of learning inevitably takes place outside the classroom. We are committed to supporting that learning through the residential experiences we provide. At Brown, we recognize that personal growth and development are largely the result of student interactions within an extraordinarily diverse environment of people and programs. The Office of Residential Life is committed to providing students with a safe, comfortable and well-maintained living space in an academically enriching environment.
+							</p>
+
+							<b class="resource-title">Veterans</b>
+
+							<p class="resource-p">
+							The <a href="http://www.brown.edu/campus-life/support/veterans-and-commissioning-programs/">Office of Student Veterans and Commissioning Programs</a> is a campus resource for student veterans, whether of the United States military or military service in other countries, and for students interesting in military officer commissioning programs, including ROTC.
+							</p>
+
+							<b class="resource-title">International Students</b>
+
+							<p class="resource-p">
+							<a href="http://brown.edu/internationalstudents">International student resources</a> and advising are provided by a variety of campus offices.  The International Student Resources page provides a comprehensive set of links and information to these services.
+							</p>
+
+							<b class="resource-title">Student Organizations</b>
+
+							<p class="resource-p">
+							There are several<a href="http://www.brown.edu/Administration/Student_Activities/"> student organizations</a> at Brown addressing the many facets of diversity. They include Arab-American Students Anti-Discrimination Coalition, Asian American Students Association, The Brotherhood, Brown Christian Fellowship, Brown International Organization, Brown Organization of Multiracial and Biracial Students, Brown Sistas United, Brown Taiwan Society, Cape Verdean Students Association, Brown Chinese Students and Scholars Association, El Movimiento Estudiantil Chicano de Atzlan, La Federacion de Estiadiantes Puertorriquenos, Filipino Alliance, Friends of Turkey, Hong Kong Students Association, Japanese Culture Association, Korean American Students Association, Latin American Students Association, Queer Alliance, Muslim Student Association, Organization of United African Peoples, Pakistani Students at Brown, South Asian Students Association, Students of Caribbean Ancestry, and the Young Communist League.
+							</p>	
+						</div><!--hidden-->					
+					</div><!--resourcecenters-->
+
+					<div class="col-lg-5 col-lg-offset-0 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-11" id="student-support">
+						<button type="button" id ="button-support-hide" class="btn"><h3 class="h-center h-resources">Student Support:</h3></button>
+						<div class="resource-support-hidden">
+							<b class="resource-title">Student and Employee Accessibility Services</b>
+
+							<p class="resource-p">
+							<a href="http://www.brown.edu/Student_Services/Office_of_Student_Life/dss/">Student and Employee Accessibility Services</a> coordinates services and accommodations for students, faculty and staff with physical, psychological, sensory, and learning disabilities. SEAS is also available for consultation with Brown community members who are questioning whether they may have a disability, have questions about working with someone who has a disability, or have a temporary condition that may require accommodations or services.
+							</p>
+
+							<b class="resource-title">Counseling and Psychological Services</b>
+
+							<p class="resource-p">
+							All of Brown’s<a href="http://www.brown.edu/Student_Services/Psychological_Services/"> Counseling and Psychological Services</a> clinicians are required to have experience in working with students from diverse backgrounds. The office provides ongoing programming for students on topics, including ethnic and racial identity, hate crimes in Asian American communities, psychological barriers to self-esteem and intimacy in the LGBTA community, and group sessions on culture consciousness.
+							</p>
 
 
-								<p class="resource-p">
-								The <a href="http://www.brown.edu/Administration/Chaplains/">Office of the Chaplains and Religious Life</a> works collaboratively with nearly two-dozen student organizations, spanning the breadth of Brown’s religious diversity and involving more than 40% of the student population. The office cares for and responds to the broad pastoral needs of Brown’s faculty, staff and students.
-								</p>
+							<b class="resource-title">University Health Services</b>
 
-								<b class="resource-title">Brown University Ombuds Office</b>
+							<p class="resource-p">
+							Working with a wide range of individual and student organizations,<a href="http://www.brown.edu/Student_Services/Health_Services/index.htm"> </a><a href="http://www.brown.edu/Student_Services/Health_Services/">University Health Services</a> is dedicated to the promotion of healthy lifestyles. Programs range from sexual health to relaxation techniques, from eating disorders to domestic abuse.
+							</p>
 
-								<p class="resource-p">
-								The <a href="https://www.brown.edu/about/administration/ombudsperson/">Ombudsperson </a>, Ruthy Kohorn Rosenberg, can offer assistance when you are looking to:
+							<b class="resource-title">Dining Services</b>
 
-								<ul>
-									<li>clarify university policies and procedures</li>
-									<li>navigate your way through the university bureaucracy</li>
-									<li>explore informal resolution of a conflict</li>
-									<li>get assistance with a difficult conversation with a colleague, co-worker, supervisor, someone you supervise or teach</li>
-									<li>get assistance with someone you are finding difficult</li>
-									<li>think through an ethical or misconduct issue that you would like to address</li>
-									<li>think through any issue arising from your life at Brown</li>
-									<li>find the appropriate person, department or office within the University to respond to your question</li>
-								</ul>
-								</p>
-								<b class="resource-title"><a href="https://www.brown.edu/about/administration/institutional-diversity/">Office of Institutional Diversity and Inclusion</a></b>
+							<p class="resource-p">
+							<a href="http://www.brown.edu/Student_Services/Food_Services/">Dining Services</a> offers Kosher and Halal meal plan options for observant Jewish and Muslim students, served in a separate section of the Refectory. This enables students to adhere to dietary laws while also dining with friends.
+							</p>
 
-								<p class="resource-p">
-								Vice President for Academic Development, Diversity and Inclusion, Liza Cariaga-Lo
+							<b class="resource-title">Chaplains and Religious Life</b>
 
-								<ul>
-									<li>reporting bias related incidents and holding follow up conduct hearings if necessary</li>
-									<li>umbrella office for all work on campus related to diversity and inclusion</li>
-									<li>working on/implementation of the campus-wide diversity action plan</li>
-								</ul>
-								</p>
 
-								<b class="resource-title"><a href="https://www.brown.edu/about/administration/title-ix/">Title IX Office</a></b>
+							<p class="resource-p">
+							The <a href="http://www.brown.edu/Administration/Chaplains/">Office of the Chaplains and Religious Life</a> works collaboratively with nearly two-dozen student organizations, spanning the breadth of Brown’s religious diversity and involving more than 40% of the student population. The office cares for and responds to the broad pastoral needs of Brown’s faculty, staff and students.
+							</p>
 
-								<p class="resource-p">
-								Title IX Oversight and Advisory Board- Amanda Walsh Title IX officer for Ugrad affairs
+							<b class="resource-title">Brown University Ombuds Office</b>
 
-								<ul>
-									<li>reporting instances of sexual violence, assault, and/or harassment within a Brown context and holding follow up investigations if necessary</li>
-									<li>sexual assault task force &amp; sexual assault campus climate survey</li>
-									<li>Also for any gender-related assault, harassment and discrimination</li>
-								</ul>
-								</p>
-							</div><!--resourcesupporthidden-->
-						</div><!--studentsupport-->
-					</div><!--row-->
+							<p class="resource-p">
+							The <a href="https://www.brown.edu/about/administration/ombudsperson/">Ombudsperson </a>, Ruthy Kohorn Rosenberg, can offer assistance when you are looking to:
 
-				</div><!--container-->
+							<ul>
+								<li>clarify university policies and procedures</li>
+								<li>navigate your way through the university bureaucracy</li>
+								<li>explore informal resolution of a conflict</li>
+								<li>get assistance with a difficult conversation with a colleague, co-worker, supervisor, someone you supervise or teach</li>
+								<li>get assistance with someone you are finding difficult</li>
+								<li>think through an ethical or misconduct issue that you would like to address</li>
+								<li>think through any issue arising from your life at Brown</li>
+								<li>find the appropriate person, department or office within the University to respond to your question</li>
+							</ul>
+							</p>
+							<b class="resource-title"><a href="https://www.brown.edu/about/administration/institutional-diversity/">Office of Institutional Diversity and Inclusion</a></b>
+
+							<p class="resource-p">
+							Vice President for Academic Development, Diversity and Inclusion, Liza Cariaga-Lo
+
+							<ul>
+								<li>reporting bias related incidents and holding follow up conduct hearings if necessary</li>
+								<li>umbrella office for all work on campus related to diversity and inclusion</li>
+								<li>working on/implementation of the campus-wide diversity action plan</li>
+							</ul>
+							</p>
+
+							<b class="resource-title"><a href="https://www.brown.edu/about/administration/title-ix/">Title IX Office</a></b>
+
+							<p class="resource-p">
+							Title IX Oversight and Advisory Board- Amanda Walsh Title IX officer for Ugrad affairs
+
+							<ul>
+								<li>reporting instances of sexual violence, assault, and/or harassment within a Brown context and holding follow up investigations if necessary</li>
+								<li>sexual assault task force &amp; sexual assault campus climate survey</li>
+								<li>Also for any gender-related assault, harassment and discrimination</li>
+							</ul>
+							</p>
+
+							<h4>Technical & Financial Support:</h4>
+
+							<b class="resource-title">Computing &amp; Information Services: Loaner Laptops</b>
+
+							<p class="resource-p"><a href="https://it.brown.edu/services/type/loaner-laptops-cameras-and-projectors">CIS:&nbsp;Loaner Laptops, Cameras, and Projectors</a>, equipment is usually checked out for a week at a time, but may be borrowed for up to 21 days if needed and availability allows. Rentals are at a first come first serve basis. There is no rental fee.&nbsp;Check-out takes place at the IT Service Center located in the CIT lobby.&nbsp;</p>
+
+							<b class="resource-title">Financial Services</b>
+
+							<p><a href="https://www.brown.edu/about/administration/financial-aid/">Financial Aid Office</a>, <a href="https://www.brown.edu/about/administration/loans/">Student Loans Office</a></p>
+
+							<b class="resource-title">Computer &amp; Information Systems: Services</b>
+
+							<p class="resource-p"><a href="https://it.brown.edu/services/group/support-and-training">CIS Suppoer &amp; Services</a>: Accounts &amp; Passwords, Computer &amp; Printer Repair, Computer Installation &amp; Set Up, Computer Training Consultation Sessions, Computer Training Workshops, Data Recovery, IT Knowledgebase, IT Service Center, Lynda.com Online Training, Mobile Device Repaid, On-Site Support, Undergraduate Computer Training Classes (PASS), Women and Technology Group</p>
+							</div>
+						</div><!--resourcesupporthidden-->
+					</div><!--studentsupport-->
+				</div><!--row-->
 			</div><!-- content -->
 		</div><!--middle-->
 	  	<div id="footer">
