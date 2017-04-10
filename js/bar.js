@@ -5,7 +5,11 @@ $(document).ready(function(){
 		xstop = $('#xs-nav').offset().top;
 
 	$window.scroll(function() {
-		$navbar.toggleClass('sticky', $window.scrollTop() > top + 5);
-		// $('#xs-nav').toggleClass('sticky', $window.scrollTop() > xstop + 65);
+		if($(window).width() > 767){
+			$navbar.toggleClass('sticky', $window.scrollTop() > top + 5);
+		} else {
+			$('#xs-nav').toggleClass('xs-sticky', $window.scrollTop() > xstop);
+			$navbar.toggleClass('xs-li-sticky', $window.scrollTop() > xstop);
+		}
 	});
 });

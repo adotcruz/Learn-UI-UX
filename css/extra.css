@@ -11,6 +11,10 @@ http://paletton.com/#uid=13l0u0kAot8mCBCt5-iDTnxJEi8
 	color:#014D58;
 }
 
+.h3, .h4, h3, h4{
+	color: #026573;
+}
+
 .h-padding{
 
 }
@@ -91,6 +95,25 @@ p{
 	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.37);
 }
 
+.xs-sticky{
+	background-color: #f8f8f8;
+	width: 100%;
+    margin: 0px;
+    z-index: 4;
+    position: fixed;
+	top: 0;
+	left: 0;
+	-webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.37);
+	-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.37);
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.37);
+}
+
+.xs-li-sticky{
+	position: fixed;
+    top: 0px;
+    z-index: 2;
+    padding-top: 70px;
+}
 
 /*#xs-nav{
 	z-index: 1;
@@ -100,6 +123,7 @@ p{
 
 #xs-nav{
 	float: none;
+	margin: 0px;
 }
 #navbar-data{
 	z-index: 1;
@@ -130,7 +154,7 @@ p{
     }
 }
 
-@media (max-width: 813px) and (min-width: 767px){
+@media (max-width: 850px) and (min-width: 767px){
 	.nav>li>a{
 		font-size: 10px;
 		padding: 5px 5px;
