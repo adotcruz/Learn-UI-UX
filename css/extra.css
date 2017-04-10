@@ -9,6 +9,10 @@ These are the css settings specific to the diversity pages, in order to jazz it 
 	color:#006A91;
 }
 
+.h2-center{
+	text-align: center;
+}
+
 a{
 	color:#0DBEFF;
 }
@@ -33,12 +37,18 @@ a{
 
 #middle{
 	background-color: #E5E5E5;
+	padding: 0px;
 }
 
 #content{
 	background-color: #E5E5E5;
+	padding-left: 7%;
+	padding-right: 7%;
 }
 
+#content>.row{
+	padding-top: 45px;
+}
 /*Settings for the navigation bar*/
 
 .navbar{
@@ -52,6 +62,16 @@ a{
 	left: 0;
 }
 
+
+/*#xs-nav{
+	z-index: 1;
+	width: 100%;
+	background-color: #f8f8f8;
+}*/
+
+#xs-nav{
+	float: none;
+}
 #navbar-data{
 	z-index: 1;
 	width: 100%;
@@ -81,6 +101,12 @@ a{
     }
 }
 
+@media (max-width: 813px) and (min-width: 767px){
+	.nav>li>a{
+		font-size: 10px;
+		padding: 5px 5px;
+	}
+}
 
 .events{
 	text-align: left;
