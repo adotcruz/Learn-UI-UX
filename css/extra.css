@@ -142,6 +142,15 @@ p{
 	color:#1296A9;
 }
 
+@media(max-width: 768px){
+
+	#frame-video{
+		width: 50%;
+		height: 30%;
+	}
+
+}
+
 @media (min-width: 768px) {
     .navbar .navbar-nav {
         display: inline-block;
