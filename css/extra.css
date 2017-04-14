@@ -4,10 +4,12 @@ These are the css settings specific to the diversity pages, in order to jazz it 
 13l0u0kAot8mCBCt5-iDTnxJEi8
 http://paletton.com/#uid=13l0u0kAot8mCBCt5-iDTnxJEi8
 */
-
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700,900');
 
 /*Settings for text*/
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Rubik', sans-serif;
 	color:#014D58;
 }
 
@@ -38,6 +40,7 @@ a{
 
 p{
 	font-size: 14px;
+	font-family: 'Nunito Sans', sans-serif;
 }
 
 .p-center{
@@ -220,4 +223,10 @@ p{
 .center-img{
 	display: block;
 	margin: 0 auto;
+}
+
+
+/*DATA*/
+.data-img{
+	width: 100%;
 }

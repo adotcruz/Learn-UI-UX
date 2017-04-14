@@ -12,6 +12,7 @@ $(document).ready(function(){
 				$navbar.removeClass('xs-li-sticky');
 			}
 		} else {
+			$navbar.removeClass('sticky');
 			$('#xs-nav').toggleClass('xs-sticky', $window.scrollTop() > xstop);
 			$navbar.toggleClass('xs-li-sticky', $window.scrollTop() > xstop);
 		}
