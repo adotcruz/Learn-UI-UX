@@ -33,7 +33,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<script async src="https://cs.brown.edu/js/picturerefill.js"></script>
 		<script async src="https://cs.brown.edu/js/resp.js"></script>
-		<script src="../js/resources.js"></script>
+		<script src="../js/initiatives.js"></script>
 		<script src="../js/bar.js"></script>
 	</head>
 
@@ -205,47 +205,57 @@
 				<div class="row first-row">
 					<h1 class="h-center">Initiatives</h1>
 					<div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-6 col-xs-12" id="initiatives-plan">
-						<h2>Diversity and Inclusion Action Plan (DIAP):</h2>
-						<p>The CS Department's<a href="https://www.brown.edu/web/documents/ddiap/ComputerScience.DIAP.Sept2016.pdf"> Diversity and Inclusion Access Plan</a> submitted to Brown University's Office of Institutional Diversity and Inclusion Department on June 2016.</p>
 
-						<h3>DIAP Summary:</h3>
-						<ul>
-							<li><strong>Data Collection and Community Input:​</strong> Creating mechanisms for collecting data about department demographics and culture, and establishing metrics that aggregate those data to measure diversity and inclusivity.</li>
-							<li><strong>Education and Training:</strong>​ Instituting diversity and inclusion training workshops to increase awareness of and foster sensitivity towards issues facing underrepresented and/or marginalized members of our community. </li>
-							<li><strong>Community Support:</strong>​ Enhancing existing academic and social support structures for underrepresented and/or marginalized members of our community.</li>
-							<li><strong>Recruitment, Hiring and Retention:</strong>​ Improving representation of faculty, students and course staff to eventually match representation within a baseline population, such as that of the University as a whole.</li>
-							<li><strong>Outreach:</strong>​ Bolstering outreach efforts to spark interest in computer science among K­12 students and members of our local Providence community, and increasing opportunities for students to interact with the computer science community at large.</li>
-							<li><strong>Communication and Dissemination:</strong>​ Pursuing an improved communication strategy to ensure that the progress we make on achieving the goals set forth in this plan is tracked and disseminated publicly.</li>
-						</ul>
+						<h2>Diversity Action Plan:</h2>
+						<button type="button" id ="button-diap-hide" class="btn"><h3 class="h-center h-resources">DIAP Summary:</h3></button>
+						<div class="diap-summary-hidden">
+							<p>The CS Department's<a href="https://www.brown.edu/web/documents/ddiap/ComputerScience.DIAP.Sept2016.pdf"> Diversity and Inclusion Access Plan</a> submitted to Brown University's Office of Institutional Diversity and Inclusion Department on June 2016.</p>
+							<ul>
+								<li><strong>Data Collection and Community Input:​</strong> Creating mechanisms for collecting data about department demographics and culture, and establishing metrics that aggregate those data to measure diversity and inclusivity.</li>
+								<li><strong>Education and Training:</strong>​ Instituting diversity and inclusion training workshops to increase awareness of and foster sensitivity towards issues facing underrepresented and/or marginalized members of our community. </li>
+								<li><strong>Community Support:</strong>​ Enhancing existing academic and social support structures for underrepresented and/or marginalized members of our community.</li>
+								<li><strong>Recruitment, Hiring and Retention:</strong>​ Improving representation of faculty, students and course staff to eventually match representation within a baseline population, such as that of the University as a whole.</li>
+								<li><strong>Outreach:</strong>​ Bolstering outreach efforts to spark interest in computer science among K­12 students and members of our local Providence community, and increasing opportunities for students to interact with the computer science community at large.</li>
+								<li><strong>Communication and Dissemination:</strong>​ Pursuing an improved communication strategy to ensure that the progress we make on achieving the goals set forth in this plan is tracked and disseminated publicly.</li>
+							</ul>
 
-						<p>We have committed to funding internal diversity initiatives and diversity outreach at a rate of at least 50% of our annual revenue from our Industry Partners Program (IPP). A budget detailing 12 how these funds will be allocated will be approved by the department chair on an annual basis.</p>
+							<p>We have committed to funding internal diversity initiatives and diversity outreach at a rate of at least 50% of our annual revenue from our Industry Partners Program (IPP). A budget detailing 12 how these funds will be allocated will be approved by the department chair on an annual basis.</p>
+						</div><!--diap-summary-hidden-->
+						<button type="button" id ="button-update-hide" class="btn"><h3 class="h-center h-resources">DIAP Update Reports:</h3></button>
+						<div class="diap-update-hidden">
+						</div><!--diap-update-hidden-->
 					</div><!--DIAP-->
 
 					<div class="col-lg-5 col-md-6 col-sm-6 col-xs-12" id="initiatives-updates">
-						<h2>Diversity Committee Updates:</h2>
+						<h2>Diversity Committee:</h2>
+						<button type="button" id ="button-committee-hide" class="btn"><h3 class="h-center h-resources">Committee Updates:</h3></button>
+						<div class="div-committee-hidden">
+							<ul>
+								<li>Held Diversity Town Halls Fall (December) 2015 and Spring (May) 2016</li>
+								<li>Held Diversity Lecture Series Fall 2015 and Spring 2016</li>
+								<li>Launched a course inclusivity feedback program, Fall 2015, Spring 2016 and Fall 2016</li>
+								<li>Conducted TA Diversity and Sensitivity Training in collaboration with the Brown Center for Students of Color for Spring 2016 and Fall 2016</li>
+								<li>Hired 7 Undergraduate Diversity Committee Student Advocates, Installed Diversity Office Hours Spring (January) 2016 and Fall 2016</li>
+								<li>Provided mediation and Title IX training to Diversity Committee Undergraduate Student Advocates Spring 2016</li>
+								<li>Conducted a CS Undergraduate Student Climate Survey, and started the data analysis (which is still ongoing) May 2016</li>
+								<li>Held a Low Income Student Roundtable May 2016</li>
+								<li>Held a &quot;Know Your Rights as a Graduate Student: Title IX&quot; presentation May 2016</li>
+								<li>Conducted Faculty Diversity Training during May 2016 Faculty Retreat May 2016</li>
+								<li>Submitted the Action Plan and had it approved by the Provost&#39;s Office June 2016</li>
+								<li>Launched the <cms-plugin alt="Link - Mosaic+ Transition Program " id="10551" render-plugin="true" title="Link - Mosaic+ Transition Program"><a href="https://www.brown.edu/academics/college/orientation/pre-orientation-programs">Mosaic+ Transition Program</a></cms-plugin>&nbsp;in collaboration with the New Scientist Catalyst Pre-Orientation Program&nbsp;August 2016</li>
+								<li>Conducted Diversity Committee Alum Panel October 2016</li>
+								<li>Participated in the IMSD STEM Day focused on outreach to undergraduates interested in STEM PhD from Minority Serving Institutions October 2016</li>
+								<li>Awarded undergraduate and graduate students scholarships and provided sponsorship to Richard Tapia and Grace Hopper Conference September and October 2016</li>
+							</ul>
+						</div><!--div-commitee-hidden-->
 
-						<ul>
-							<li>Held Diversity Town Halls Fall (December) 2015 and Spring (May) 2016</li>
-							<li>Held Diversity Lecture Series Fall 2015 and Spring 2016</li>
-							<li>Launched a course inclusivity feedback program, Fall 2015, Spring 2016 and Fall 2016</li>
-							<li>Conducted TA Diversity and Sensitivity Training in collaboration with the Brown Center for Students of Color for Spring 2016 and Fall 2016</li>
-							<li>Hired 7 Undergraduate Diversity Committee Student Advocates, Installed Diversity Office Hours Spring (January) 2016 and Fall 2016</li>
-							<li>Provided mediation and Title IX training to Diversity Committee Undergraduate Student Advocates Spring 2016</li>
-							<li>Conducted a CS Undergraduate Student Climate Survey, and started the data analysis (which is still ongoing) May 2016</li>
-							<li>Held a Low Income Student Roundtable May 2016</li>
-							<li>Held a &quot;Know Your Rights as a Graduate Student: Title IX&quot; presentation May 2016</li>
-							<li>Conducted Faculty Diversity Training during May 2016 Faculty Retreat May 2016</li>
-							<li>Submitted the Action Plan and had it approved by the Provost&#39;s Office June 2016</li>
-							<li>Launched the <cms-plugin alt="Link - Mosaic+ Transition Program " id="10551" render-plugin="true" title="Link - Mosaic+ Transition Program"><a href="https://www.brown.edu/academics/college/orientation/pre-orientation-programs">Mosaic+ Transition Program</a></cms-plugin>&nbsp;in collaboration with the New Scientist Catalyst Pre-Orientation Program&nbsp;August 2016</li>
-							<li>Conducted Diversity Committee Alum Panel October 2016</li>
-							<li>Participated in the IMSD STEM Day focused on outreach to undergraduates interested in STEM PhD from Minority Serving Institutions October 2016</li>
-							<li>Awarded undergraduate and graduate students scholarships and provided sponsorship to Richard Tapia and Grace Hopper Conference September and October 2016</li>
-						</ul>
+						<button type="button" id ="button-events-hide" class="btn"><h3 class="h-center h-resources">Diversity Events Notes:</h3></button>
+						<div class="committee-events-hidden">
+							<h4>Low-Income Round Table</h4>
+							<p><span class="file"><a href="https://cs.brown.edu/media/filer_public/36/6b/366ba93a-0910-48f1-864f-dced194c033d/lowincomestudentroundtabletakeawaysandnotes.pdf">Low Income Roundtable Notes <span class="filesize">(84.7&nbsp;KB)</span></a></span></p>
 
-						<h3>Low-Income Round Table</h3>
-						<p><span class="file"><a href="https://cs.brown.edu/media/filer_public/36/6b/366ba93a-0910-48f1-864f-dced194c033d/lowincomestudentroundtabletakeawaysandnotes.pdf">Low Income Roundtable Notes <span class="filesize">(84.7&nbsp;KB)</span></a></span></p>
-
-						<p>We are currently working on increasing TA diversity, by not only holding trainings&nbsp;for regular TA&#39;s, but also HTA&#39;s. We hope that by making HTA&#39;s more aware of the issues students have with&nbsp;classes (due to underrepresentation) will lead to a HTA making a better and more informed decision that will benefit all students. We are also working on finding ways for the CS department to provide funding for low income students when they are travelling and interviewing with companies. The issue is&nbsp;that lower income students do not have the means or funds to miss school and travel for job interviews (due to costs that arise such as hotel, traveling from hotel to company location, food, and emergency necessities). We hope to come up with something that&nbsp;benefits our low income students, while at the same time respecting our departments resources.</p>
+							<p>We are currently working on increasing TA diversity, by not only holding trainings&nbsp;for regular TA&#39;s, but also HTA&#39;s. We hope that by making HTA&#39;s more aware of the issues students have with&nbsp;classes (due to underrepresentation) will lead to a HTA making a better and more informed decision that will benefit all students. We are also working on finding ways for the CS department to provide funding for low income students when they are travelling and interviewing with companies. The issue is&nbsp;that lower income students do not have the means or funds to miss school and travel for job interviews (due to costs that arise such as hotel, traveling from hotel to company location, food, and emergency necessities). We hope to come up with something that&nbsp;benefits our low income students, while at the same time respecting our departments resources.</p>
+						</div><!--committee-events-hidden-->
 					</div><!--updates-->
 
 				</div><!--row-->

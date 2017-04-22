@@ -13,6 +13,10 @@ http://paletton.com/#uid=13l0u0kAot8mCBCt5-iDTnxJEi8
 	color:#014D58;
 }
 
+td{
+	font-family: 'Rubik', sans-serif;
+}
+
 .h3, .h4, h3, h4{
 	color: #026573;
 }
@@ -197,10 +201,10 @@ p{
 	box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.37);
 }
 
-.resource-p{
+/*.resource-p{
 	margin-top: 5px;
 	margin-bottom: 5px;
-}
+}*/
 
 .resource-centers-hidden{
 	display: none;
@@ -230,7 +234,31 @@ p{
 }
 
 
+/*INITIATIVES*/
+.diap-summary-hidden{
+	display: none;
+}
+
+.div-committee-hidden{
+	display: none;
+}
+
+.diap-update-hidden{
+	display: none;
+}
+
+.committee-events-hidden{
+	display: none;
+}
 /*DATA*/
 .data-img{
 	width: 100%;
+}
+
+th{
+	padding: 0 40px;
+}
+
+td{
+	text-align: center;
 }
